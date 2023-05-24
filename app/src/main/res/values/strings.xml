@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="btn_btnCreate">Crear Usuario</string>
+    <string name="btn_btnFetch">Buscar Usuario</string>
+    <string name="btn_btnEdit">Editar Usuario</string>
+    <string name="btn_btnDelete">Eliminar Usuario</string>
+    <string name="title_activity_main_desplegable">MainDesplegable</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Buscar Usuarios</string>
+    <string name="menu_slideshow">Contactos</string>
+    <string name="menu_Metas">Metas</string>
+    <string name="menu_Productos">Productos</string>
+
+</resources>

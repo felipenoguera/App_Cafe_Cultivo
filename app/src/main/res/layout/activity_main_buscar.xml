@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mixture_of_different_kinds_of_coffee_beans_coffee_background_free_photo"
+
+    android:orientation="vertical"
+    tools:context=".MainActivityBuscar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juanvaldez_svg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="280dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="355dp">
+
+        <Button
+            android:id="@+id/btnFetch"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="180dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/btn_btnFetch"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F8F3F3"
+            android:ems="10"
+            android:hint="ID Usuario"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#F30404"
+            android:textColorHint="#FBFAFA"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="55"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/facebook" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="#503128"
+        android:fontFamily="serif"
+        android:text="Este menú de navegación permite con mas fácildad que el usuario encuentre la información que están buscando, ya sea una persona en particular que se este buscando ya se por el Id que tiene o el nombre de la persona Además puede ayudar a que se encuentren información importante que quizá no sabían que necesitaban puedes  actulizar sus datos o realizar cambios para el usuario buscado"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F1F1F1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
